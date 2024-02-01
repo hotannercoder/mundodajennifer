@@ -1,0 +1,82 @@
+<!--<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name='robots' content='none' />
+  <base href="https://n15.network-auth.com/MIAP-V/hi/AYNPXcp/" />
+  <title> MIAP-V</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+
+</head>--> <!-- Saber pq esse não funcionou-->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIAP-V</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="container">
+      <div class="header">
+        <div id="icon_cell"><img src= "./jenn.jpeg" /></div>
+      </div>
+
+      <div class="error hidden">
+        <p></p>
+      </div>
+
+      <div id="auth">
+        <div id="left_col">
+          <h1>Bem vindo ao estranho mundo da Jennifer</h1>
+          <p>Prezado visitante, você acessou uma rede restrita. Para ter acesso, favor informar o código do país +55,
+            DDD e numero do telefone para realizar autenticação conforme exemplo abaixo.
+          <p>Ex: <font color="red">&#x2B<font color="red">5521<font color=#000000>987654321</p>
+          <p>Atenciosamente, Jennifer a estranha.</p>
+          <hr>
+          </p>
+          <p>É necessário um telefone celular que receba mensagens de texto (SMS) para acessar esta rede. Digite seu
+            número de celular e você receberá um código de login para acesso. Taxas padrão de SMS serão aplicadas.</p>
+        </div>
+
+        <div id="right_col">
+          <div class="login-error go-error-toggle hidden">
+            <p><img src="/images/warning_red.png" alt="Warning red" /><!-- ERROR_MESSAGES --></p>
+          </div>
+          <div id="signin_form" class="formarea form_links">
+
+
+            </form>
+
+
+            <h3>NÚMERO DE TELEFONE</h3>
+            <input type="tel" name="sms" id="sms_field" size="24" />
+            <input type="hidden" name="stage" id="stage" value="number" />
+            <input type="submit" name="commit" value="Continuar" class="btn btn-default" id="sign_in" />
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <h3>POWERED BY</h3>
+    <img width="100" alt="Cisco Meraki" src="https://meraki.cisco.com/wp-content/uploads/2020/04/cisco-meraki-logo-1024x200.png" />
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
